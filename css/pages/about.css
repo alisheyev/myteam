@@ -1,0 +1,149 @@
+@import url(../global.css);
+
+/* ---------mobile------------- */
+#intro-about {
+  background-color: var(--midnight-green);
+}
+
+.about-heading {
+  font-family: "livvic", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: var(--white);
+}
+
+.about-line {
+  color: transparent;
+}
+
+.about-paragraph {
+  font-family: "livvic", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+  color: var(--white);
+}
+
+#detectors-section {
+  background-color: var(--deep-jungle-green);
+  background-image: url(../../images/about/directors-disk.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+/* .directors-stars {
+  background-image: url(../../images/about/directors-square.svg);
+  background-repeat: no-repeat;
+  background-position:  right;
+} */
+
+.directors-title {
+  font-family: "livvic", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: var(--white);
+  text-align: center;
+}
+
+.directors-card {
+  background-color: var(--darkness-green);
+}
+
+.directors-image img {
+  max-width: 69px;
+}
+
+.directors-name {
+  font-family: "livvic", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--rapture-blue);
+}
+
+.directors-level {
+  font-family: "livvic", sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--white);
+}
+
+.directors-paragraph {
+  font-family: "livvic", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--white);
+  text-align: center;
+  max-width: 254px;
+}
+
+#clients-section {
+  background-color: var(--darkness-green);
+  background-image: url(../../images/about/clients-disk.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.clients-heading {
+  font-family: "livvic", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: var(--white);
+  text-align: center;
+}
+
+.clients-brend img {
+  max-height: 24px;
+}
+/* ---------mobile------------- */
+
+/* ---------tablet------------- */
+@media (min-width: 375px) {
+  .about-heading {
+    font-size: 64px;
+    line-height: 56px;
+  }
+
+  .clients-brend img {
+    max-height: 20px;
+  }
+
+
+}
+/* ---------tablet------------- */
+
+@media (min-width: 640px) {
+  #intro-about {
+    background-image: url(../../images/about/about-disk-two.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+}
+
+/* ---------desktop------------- */
+@media (min-width: 768px) {
+  .about-line {
+    max-width: 50px;
+    max-height: 4px;
+    color: transparent;
+    background-color: var(--light-coral);
+  }
+
+  .clients-brend img {
+    max-height: 27px;
+  }
+}
+/* ---------desktop------------- */
+
+@media (max-width: 375px) {
+  #intro-about {
+    background-image: url(../../images/about/about-disk.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+}

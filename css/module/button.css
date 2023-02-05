@@ -1,0 +1,37 @@
+@import url(../global.css);
+
+.button-primary{
+  padding: 9px 33px 11px 32px;
+  font-family: "livvic", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 24px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.button-primary:hover {
+  border: 2px solid #ffffff;
+  color: var(--dark-green);
+  background-color: #ffffff;
+  transition: 1s;
+}
+
+.button-secondary {
+  padding: 9px 33px 11px 32px;
+  font-family: "livvic", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 24px;
+  border: 2px solid var(--darkness-green);
+  color: var(--darkness-green);
+  background-color: transparent;
+}
+
+.button-secondary:hover {
+  color: var(--white);
+  background-color: var(--darkness-green);
+  border: 2px solid var(--darkness-green);
+  transition: 1s;
+}

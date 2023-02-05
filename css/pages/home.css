@@ -1,0 +1,230 @@
+@import url(../global.css);
+
+/* ----------------------------------- */
+#intro-section {
+  background-color: var(--midnight-green);
+}
+
+.intro-container {
+  background-image: url(../../images/home/disk-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.intro-left {
+  font-family: "livvic", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  color: var(--white);
+  text-align: center;
+}
+
+.intro-left span {
+  color: var(--light-coral);
+}
+
+.intro-right {
+  font-family: "livvic", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+  color: var(--white);
+  text-align: center;
+}
+
+/* ----------------------------------- */
+#services-section {
+  background-color: var(--darkness-green);
+  background-image: url(../../images/home/disk-services.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.services-line {
+  max-width: 50px;
+  max-height: 4px;
+  color: transparent;
+  background-color: var(--light-coral);
+}
+
+.services-title {
+  font-family: "livvic", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: var(--white);
+}
+
+.services-heading {
+  font-family: "livvic", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--light-coral);
+}
+
+.services-paragraph {
+  font-family: "livvic", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--white);
+  opacity: 0.8;
+}
+/* ----------------------------------- */
+
+#results-section {
+  background-color: var(--deep-jungle-green);
+  background-image: url(../../images/home/results-square.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.results-section {
+  background-image: url(../../images/home/results-disk.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.results-heading {
+  font-family: "livvic", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: var(--white);
+}
+
+.results-left span {
+  color: var(--rapture-blue);
+}
+
+.results-paragraph {
+  background-image: url(../../images/home/results-comma.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  font-family: "livvic", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--white);
+}
+
+.results-name {
+  font-family: "livvic", sans-serif;
+  line-height: 28px;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--rapture-blue);
+}
+
+.results-career {
+  font-family: "livvic", sans-serif;
+  font-style: italic;
+  font-size: 13px;
+  color: var(--white);
+}
+/* ----------------------------------- */
+#start-section {
+  background-color: var(--light-coral);
+  background-image: url(../../images/home/start-disk.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.start-heading {
+  font-family: "livvic", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: var(--darkness-green);
+}
+/* ----------------------------------- */
+
+/* ---tablet--- */
+@media (min-width: 375px) {
+  #intro-section {
+    background-color: var(--midnight-green);
+  }
+
+  .intro-container {
+    background-image: url(../../images/home/disk-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  .intro-left {
+    font-family: "livvic", sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 60px;
+    color: var(--white);
+    text-align: center;
+  }
+
+  .intro-left span {
+    color: var(--light-coral);
+  }
+
+  .intro-right {
+    font-family: "livvic", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    color: var(--white);
+    text-align: center;
+  }
+}
+
+/* ---desktop--- */
+@media (min-width: 768px) {
+  #intro-section {
+    background-image: url(../../images/home/disk-left.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+  }
+
+  .intro-container {
+    background-position: right bottom;
+  }
+
+  .intro-left {
+    font-size: 120px;
+    line-height: 120px;
+    text-align: left;
+  }
+
+  .intro-right {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .intro-line {
+    max-width: 50px;
+    max-height: 4px;
+    color: transparent;
+    background-color: var(--rapture-blue);
+  }
+
+  /* ---------------- */
+  #services-section {
+    background-position: right bottom;
+  }
+
+  .services-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+  }
+  /* ---------------- */
+
+  .results-heading {
+    font-size: 48px;
+    line-height: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-line {
+    display: none;
+  }
+}

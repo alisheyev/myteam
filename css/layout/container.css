@@ -1,0 +1,15 @@
+@import url(../global.css);
+
+.container {
+  /* 1440-(165*2)=1140-330-(30)=1080 */
+  width: min(100% - 20px, 1080px);
+  margin-inline: auto;
+  box-sizing: border-box;
+}
+
+/* .container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    box-sizing: border-box;
+} */
