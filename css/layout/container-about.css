@@ -122,6 +122,7 @@
   .about-container {
     padding: 240px 0px 120px;
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .about-paragraph {
