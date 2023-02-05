@@ -115,10 +115,18 @@
     row-gap: 75px;
     column-gap: 15px;
   }
+
 }
 
 /* ---------desktop------------- */
 @media (min-width: 768px) {
+
+  .about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
   .about-container {
     padding: 240px 0px 120px;
     flex-direction: row;
