@@ -26,7 +26,7 @@
     line-height: 28px;
 }
 
-main {
+#contact-section {
   padding: 120px 0;
   background-color: var(--midgreen);
   background-image: url(../../images/contact/img1.png);
@@ -57,7 +57,7 @@ main {
   margin-top: 48px;
 }
 
-h1 span {
+#contact-section h1 span {
   font-size: 32px;
   line-height: 48px;
 }
@@ -155,7 +155,7 @@ form button {
   input {
     min-width: 540px;
   }
-  main {
+  #contact-section {
     background-image: url(../../images/contact/img1resp.png);
     background-position: bottom right;
     background-repeat: no-repeat;
@@ -184,18 +184,18 @@ form button {
   }
 }
 
-span {
+#contact-section span {
   color: var(--coral);
 }
 
-h1 {
+#contact-section h1 {
   color: var(--white);
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
 }
 
-p {
+#contact-section p {
   color: var(--white);
   font-weight: 600;
   font-size: 15px;
