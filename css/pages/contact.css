@@ -3,14 +3,201 @@
 /* ---------mobile------------- */
 /* ---------mobile------------- */
 
-
 /* ---------tablet------------- */
 @media (min-width: 375px) {
 }
 /* ---------tablet------------- */
 
-
 /* ---------desktop------------- */
 @media (min-width: 768px) {
 }
 /* ---------desktop------------- */
+
+/*  MANBA: NABIYEVADAN CHOPILDI */
+
+#contact-section button{
+	cursor: pointer;
+	padding: 10px 32px;
+	border: 2px solid #FFFFFF;
+    border-radius: 24px;
+	background-color: transparent;
+	font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+main {
+  padding: 120px 0;
+  background-color: var(--midgreen);
+  background-image: url(../../images/contact/img1.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.maincontainer h1 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.contactleft {
+  margin-bottom: 56px;
+}
+
+.leftcards {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 48px;
+}
+
+h1 span {
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.leftcard {
+  display: flex;
+  gap: 25px;
+}
+
+.leftcard img {
+  width: 72px;
+  height: 72px;
+}
+
+.leftcard p {
+  display: flex;
+  align-items: center;
+  max-width: 200px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 10px;
+  color: var(--lightgreen);
+  padding: 16px;
+  min-width: 300px;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: var(--midgreen);
+}
+
+.message {
+  padding-bottom: 58px;
+}
+
+form button {
+  width: 123px;
+  display: flex;
+  margin-top: 24px;
+  background-color: white !important;
+  color: var(--darkgreen);
+}
+
+.img2 {
+  display: none;
+}
+
+:root {
+  --tran: all 0.5s ease;
+  --white: #ffffff;
+  --coral: #f67e7e;
+  --midgreen: #014e56;
+  --lightgreen: #79c8c7;
+  --police: #2c6269;
+  --deepjungle: #004047;
+  --sacramento: #012f34;
+  --darkgreen: #002529;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  scroll-behavior: smooth;
+  transition: var(--tran);
+  font-family: "Livvic", sans-serif;
+  outline: none;
+}
+
+@media (min-width: 500px) {
+  .bigh1 {
+    font-size: 64px;
+    line-height: 56px;
+  }
+  .leftcard p {
+    max-width: 300px;
+  }
+  input {
+    min-width: 400px;
+  }
+}
+
+@media (min-width: 600px) {
+  input {
+    min-width: 500px;
+  }
+}
+
+@media (min-width: 700px) {
+  input {
+    min-width: 540px;
+  }
+  main {
+    background-image: url(../../images/contact/img1resp.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1000px) {
+  .maincontainer {
+    flex-direction: initial;
+    justify-content: space-between;
+  }
+  .maincontainer h1 {
+    text-align: left;
+  }
+  .contactleft {
+    margin-top: 124px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .img2 {
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 200px;
+  }
+}
+
+span {
+  color: var(--coral);
+}
+
+h1 {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+p {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+}
